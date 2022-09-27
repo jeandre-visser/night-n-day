@@ -75,7 +75,7 @@ label svg.sun {
   left: 50px;
   fill: #FFF;
   transition: 0.6s;
-  animation: spin-animation 10s infinite;
+  animation: spin-animation 7s infinite;
   animation-timing-function: linear;
   display: inline-block;
 }
@@ -88,10 +88,14 @@ label svg.moon {
 
 input:checked + label svg.moon {
   fill: #FFF;
+  animation: spin-animation 10s infinite;
+  animation-timing-function: linear;
+  display: inline-block;
 }
 
 input:checked + label svg.sun {
   fill: #5d5959;
+  animation: none;
 }
 
 h1#day {
