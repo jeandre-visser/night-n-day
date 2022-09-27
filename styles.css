@@ -28,3 +28,7 @@ label:after {
   border-radius: 180px;
   box-shadow: 0px 7px 14px rgba(0,0,0,0.2);
 }
+
+input {
+  visibility: hidden;
+}
