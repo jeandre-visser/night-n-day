@@ -75,6 +75,9 @@ label svg.sun {
   left: 50px;
   fill: #FFF;
   transition: 0.6s;
+  animation: spin-animation 10s infinite;
+  animation-timing-function: linear;
+  display: inline-block;
 }
 
 label svg.moon {
@@ -100,4 +103,13 @@ h1#night {
   display: none;
   color: #295EE6;
   font-size: 100px;
+}
+
+@keyframes spin-animation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }
