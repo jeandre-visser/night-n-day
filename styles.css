@@ -7,6 +7,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
   font-family: 'Alata', sans-serif;
+  margin: 0;
 }
 
 label {
@@ -98,17 +99,30 @@ input:checked + label svg.sun {
   animation: none;
 }
 
-h1#day {
+h1#dayTitle {
   font-size: 100px;
   color:#ff9d00;
   animation: fadeIn 2s;
 }
 
-h1#night {
-  display: none;
+h1#nightTitle {
   color: #295EE6;
   font-size: 100px;
   animation: fadeIn 2s;
+}
+
+div {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+div#night {
+  display: none;
+}
+
+img {
+  width: 300px;
 }
 
 @keyframes spin-animation {
