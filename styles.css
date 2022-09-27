@@ -91,4 +91,6 @@ input:checked + label svg.sun {
   fill: #5d5959;
 }
 
-
+h1#night {
+  display: none;
+}
