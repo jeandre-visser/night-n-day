@@ -129,8 +129,8 @@ img.dayRun {
 }
 
 img.sleep {
-  height: 250px;
-  margin-top: 50px;
+  height: 210px;
+  margin-top: 90px;
   animation: fadeIn 2s;
 }
 
