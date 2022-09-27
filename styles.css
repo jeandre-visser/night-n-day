@@ -8,7 +8,7 @@ body {
 }
 
 label {
-  width: 800px;
+  width: 900px;
   height: 400px;
   background: #DDD;
   border-radius: 300px;
@@ -32,3 +32,8 @@ label:after {
 input {
   visibility: hidden;
 }
+
+input:checked + label {
+  background:#363433;
+}
+
