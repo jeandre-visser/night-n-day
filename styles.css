@@ -62,31 +62,31 @@ input:checked + label + .main-background {
   background:#0A0909
 }
 
-label img {
+label svg {
   position: absolute;
   top: 50px;
   width: 300px;
   z-index: 1;
 }
 
-label img.sun {
+label svg.sun {
   left: 50px;
   fill: #FFF;
   transition: 0.6s;
 }
 
-label img.moon {
+label svg.moon {
   left: 550px;
-  fill: #151515;
+  fill: #5d5959;
   transition: 0.6s;
 }
 
-input:checked + label img.moon {
+input:checked + label svg.moon {
   fill: #FFF;
 }
 
-input:checked + label img.sun {
-  fill: #151515;
+input:checked + label svg.sun {
+  fill: #5d5959;
 }
 
 
