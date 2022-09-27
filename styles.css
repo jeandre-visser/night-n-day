@@ -88,7 +88,7 @@ label svg.moon {
 
 input:checked + label svg.moon {
   fill: #FFF;
-  animation: spin-animation 10s infinite;
+  animation: spin-animation 5s infinite;
   animation-timing-function: linear;
   display: inline-block;
 }
@@ -100,13 +100,15 @@ input:checked + label svg.sun {
 
 h1#day {
   font-size: 100px;
-  color:#ff9d00
+  color:#ff9d00;
+  animation: fadeIn 2s;
 }
 
 h1#night {
   display: none;
   color: #295EE6;
   font-size: 100px;
+  animation: fadeIn 2s;
 }
 
 @keyframes spin-animation {
@@ -116,4 +118,9 @@ h1#night {
   100% {
       transform: rotate(360deg);
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
