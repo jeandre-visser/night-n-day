@@ -91,6 +91,13 @@ input:checked + label svg.sun {
   fill: #5d5959;
 }
 
+h1#day {
+  font-size: 100px;
+  color:#ff9d00
+}
+
 h1#night {
   display: none;
+  color: #295EE6;
+  font-size: 100px;
 }
