@@ -10,9 +10,21 @@ body {
 label {
   width: 800px;
   height: 400px;
-  background: #FFF;
+  background: #DDD;
   border-radius: 300px;
   position: relative;
   display: block;
   box-shadow: inset 0px 10px 20px rgba(0,0,0,0.3), inset 0px -6px rgba(255,255,255,0.2);
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 25px;
+  top: 25px;
+  background: linear-gradient(180deg, #E8AD0C, #FF8A01);
+  border-radius: 180px;
+  box-shadow: 0px 7px 14px rgba(0,0,0,0.2);
 }
