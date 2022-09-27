@@ -14,7 +14,7 @@ label {
   border-radius: 300px;
   position: relative;
   display: block;
-  box-shadow: inset 0px 10px 20px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 10px 20px rgba(0,0,0,0.3), inset 0px -3px 12px rgba(255, 255, 255, 0.3);
   transition: 0.6s;
 }
 
@@ -36,7 +36,7 @@ input {
 }
 
 input:checked + label {
-  background:#363433;
+  background:#151515;
 }
 
 input:checked + label:after {
@@ -49,12 +49,16 @@ label:active:after {
   width: 500px;
 }
 
-.background {
+.main-background {
   width: 100vw;
   height: 100vh;
   background: #FFF;
   position: absolute;
   transition: 0.6s;
+  z-index: -1;
 }
 
+input:checked + label + .main-background {
+  background:#0A0909
+}
 
