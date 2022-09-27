@@ -37,3 +37,9 @@ input:checked + label {
   background:#363433;
 }
 
+input:checked + label:after {
+  left: 500px;
+  background: linear-gradient(180deg, #295EE6, #210094);
+  transform: translateX(-100px);
+}
+
