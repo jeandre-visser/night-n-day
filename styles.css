@@ -7,7 +7,7 @@ body {
   height: auto;
   overflow-x: hidden;
   font-family: 'Alata', sans-serif;
-  margin: 0;
+  margin-top: 50px;
 }
 
 label {
@@ -104,29 +104,33 @@ h1#dayTitle {
   font-size: 100px;
   color:#ff9d00;
   animation: fadeIn 2s;
+  margin: 0;
 }
 
 h1#nightTitle {
   color: #295EE6;
   font-size: 100px;
   animation: fadeIn 2s;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 div#day {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 div#night {
   display: none;
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 80px;
 }
 
-img {
+img.dayRun {
   width: 300px;
+  animation: fadeIn 2s;
+}
+
+img.sleep {
+  height: 250px;
+  margin-top: 50px;
   animation: fadeIn 2s;
 }
 
